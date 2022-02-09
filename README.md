@@ -20,9 +20,9 @@
 ### Clone
 you can clone and access the repo by using these commands
 
-`git clone https://github.com/lexoxo/Set-up-a-Hello-Microverse-project.git`
+`git clone https://github.com/lexoxo/Portfolio-setup-and-mobile-version-skeleton.git`
 
-`cd Set-up-a-Hello-Microverse-project`
+`cd Portfolio-setup-and-mobile-version-skeleton`
  
 
 ## Authors
