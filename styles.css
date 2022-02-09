@@ -60,13 +60,15 @@ input, select {
   vertical-align :middle;
 }
 body{
+    margin: auto;
+    text-align: center;
     background-color: #FFFFFF;
     background-image: url("images/background-img.svg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 header{
-font-family: Inter;
+font-family: Inter, 'Arial Narrow Bold', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
