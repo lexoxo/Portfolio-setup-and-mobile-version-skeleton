@@ -1,62 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio: setup and mobile version skeleton
 
-> Description the project.
+> The aim is to setup a portfolio that i will be using for my all career to get hired or to contribute
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html, css
+- Node.js
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[See how it looks](https://lexoxo.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### Clone
+you can clone and access the repo by using these commands
 
+`git clone https://github.com/lexoxo/Set-up-a-Hello-Microverse-project.git`
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+`cd Set-up-a-Hello-Microverse-project`
+ 
 
 ## Authors
 
-👤 **Author1**
+👤 **Axel Traoré**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@githubhandle](https://github.com/lexoxo)
+- Twitter: [@twitterhandle](https://twitter.com/axel_traore)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/axel-traoré-06110577/)
 
 ## Show your support
 
@@ -64,9 +39,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
