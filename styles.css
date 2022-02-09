@@ -59,3 +59,25 @@ table {
 input, select {
   vertical-align :middle;
 }
+body{
+    background-color: #FFFFFF;
+    background-image: url("images/background-img.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+}
+.links{
+    border: 1px solid orange;
+    padding: 10px 12px;
+}
+.menu-container{
+display: flex;
+justify-content: center;
+margin-top: 16px;;
+}
