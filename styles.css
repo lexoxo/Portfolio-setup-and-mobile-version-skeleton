@@ -15,14 +15,14 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #fff;
   background-image: url("images/background-img.png");
-    /* background-size: 105vw; */
+ 
+  /* background-size: 105vw; */
   background-repeat: no-repeat;
   background-position: top;
-  overflow-x:hidden;
+  overflow-x: hidden;
   width: 100%;
-
 }
 
 header {
@@ -67,7 +67,7 @@ header {
 }
 
 .headline p {
-  margin-top:24px ;
+  margin-top: 24px;
   font-size: 39px;
 }
 
