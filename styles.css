@@ -1,17 +1,22 @@
 html {
-  font-size: 62.5%;
   box-sizing: border-box;
   width: 100%;
   scroll-behavior: smooth;
   font-family: 'Inter', sans-serif;
 }
 
+@font-face {
+  font-family: Inter;
+  src: url(Inter.ttf);
+  }
+  
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
+  font-family: Inter;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -27,10 +32,6 @@ body {
 header {
   position: fixed;
   top: 0;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -58,23 +59,30 @@ header img {
 }
 
 .headline h1 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  letter-spacing: 0.37px;
+
+
+font-style: normal;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+text-align: center;
+color: #172B4D;
   margin-top: 151px;
 }
 
 #second-h1 {
-  color: rgb(92, 190, 141);
+  color: #36b37e;
 }
 
 .headline p {
-  margin-top: 58px;
-  font-size: 20px;
-  line-height: 28px;
+margin-top: 58px;
+padding: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #172B4D;
 }
 
 .social {
