@@ -18,16 +18,17 @@ body{
     padding: 0;
     text-align: center;
     background-color: #FFFFFF;
-    background-image: url("images/background-img.svg");
-    background-size: 100vw;
+    background-image: url("images/background-img.png");
+    /* background-size: 105vw; */
     background-repeat: no-repeat;
+    background-position: top;
     overflow-x:hidden;
     width: 100%;
 
 }
 
 header{
-position: absolute;
+position: fixed;
 top: 0;
 font-family: Inter, 'Arial Narrow Bold', sans-serif;
 font-style: normal;
@@ -50,6 +51,7 @@ width: 100%;
     justify-content: center;
     align-content: center;
     height: 100vh;
+    overflow: hidden;
 
 }
 .headline h1{
@@ -58,12 +60,27 @@ font-size: 48px;
 line-height: 60px;
 text-align: center;
 letter-spacing: 0.37px;
+margin-top: 151px;
 }
 #second-h1{
+
     color: rgb(92, 190, 141);
 }
 .headline p{
     margin-top:24px ;
+    font-size: 39px;
+
+}
+
+.social{
+    margin-top: 50px;
+}
+.social i{
+    padding: 5px;;
     font-size: 20px;
-line-height: 32px;
+}
+.more-img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
 }
