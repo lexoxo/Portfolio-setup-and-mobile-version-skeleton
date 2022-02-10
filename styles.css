@@ -4,12 +4,14 @@ html {
   box-sizing: border-box;
   width: 100%;
   scroll-behavior: smooth;
-}  
-*{
+}
+
+* {
   margin: 0;
   padding: 0;
-} 
-body{
+}
+
+body {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -22,7 +24,8 @@ body{
   width: 100%;
 
 }
-header{
+
+header {
   position: fixed;
   top: 0;
   font-family: Inter, 'Arial Narrow Bold', sans-serif;
@@ -34,11 +37,12 @@ header{
   justify-content: center;
   width: 100%;
 }
-.links{
+
+.links {
   padding: 10px 12px;
 }
 
-.headline{
+.headline {
   margin-top: 40px;
   width: 100%;
   display: flex;
@@ -48,7 +52,8 @@ header{
   height: 100vh;
   overflow: hidden;
 }
-.headline h1{
+
+.headline h1 {
   font-weight: 800;
   font-size: 48px;
   line-height: 60px;
@@ -56,21 +61,26 @@ header{
   letter-spacing: 0.37px;
   margin-top: 151px;
 }
-#second-h1{
+
+#second-h1 {
   color: rgb(92, 190, 141);
 }
-.headline p{
+
+.headline p {
   margin-top:24px ;
   font-size: 39px;
 }
-.social{
+
+.social {
   margin-top: 50px;
 }
-.social i{
-  padding: 5px;;
+
+.social i {
+  padding: 5px;
   font-size: 20px;
 }
-.more-img{
+
+.more-img {
   width: 40px;
   height: 40px;
   margin: auto;
