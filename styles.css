@@ -38,14 +38,16 @@ header {
   width: 100%;
 }
 
-.header-text{
-    font-size: 20px;
-    margin: 0 12px;
-    padding: 10px 12px;
+.header-text {
+  font-size: 20px;
+  margin: 0 12px;
+  padding: 10px 12px;
 }
-header img{
+
+header img {
     margin: 0 12px;
 }
+
 .headline {
   margin-top: 48px;
   width: 100%;
@@ -58,10 +60,10 @@ header img{
 }
 
 .headline h1 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
   text-align: center;
   letter-spacing: 0.37px;
   margin-top: 151px;
@@ -73,7 +75,7 @@ header img{
 
 .headline p {
   margin-top: 58px;
-font-weight: 400;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
