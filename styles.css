@@ -2,14 +2,14 @@ html {
   box-sizing: border-box;
   width: 100%;
   scroll-behavior: smooth;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
 }
 
 @font-face {
   font-family: InterBold;
   src: url(font/Inter-Bold.ttf);
-  }
-  
+}
+
 @font-face {
   font-family: InterRegular;
   src: url(font/Inter-Regular.ttf);
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: InterRegular;
+  font-family: InterRegular, sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -64,13 +64,13 @@ header img {
 }
 
 .headline h1 {
-  font-family: interBold;
+  font-family: interBold, sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: bold;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
+  color: #172B4d;
   margin-top: 100px;
   padding: 20px;
 }
@@ -80,14 +80,13 @@ header img {
 }
 
 .headline p {
-  margin-top: 0px;
   padding: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #172B4D;
+  color: #172B4d;
 }
 
 .social {
