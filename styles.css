@@ -38,10 +38,6 @@ header {
   width: 100%;
 }
 
-.links {
-  padding: 10px 12px;
-}
-
 .headline {
   margin-top: 40px;
   width: 100%;
@@ -72,7 +68,7 @@ header {
 }
 
 .social {
-    display: flex;
+  display: flex;
   margin-top: 50px;
   justify-content: center;
 }
