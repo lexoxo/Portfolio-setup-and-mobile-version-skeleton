@@ -245,5 +245,15 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 .frames-langs{
-  margin-top: 51px;
+  margin-top: 59px;
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: auto;
+}
+
+.frame{
+  background: #EBF0EE;
+border: 1px solid #C1C7D0;
+box-sizing: border-box;
+border-radius: 8px;
 }
