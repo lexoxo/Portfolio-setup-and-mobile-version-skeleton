@@ -52,10 +52,8 @@ header img {
   margin: 0 12px;
 }
 
-
-.headline 
+.headline
 {
-
   margin-top: 48px;
   width: 100%;
   display: flex;
@@ -115,7 +113,7 @@ header img {
 }
 
 .recents-work {
-  font-family: InterBold;
+  font-family: InterBold,sans-serif;
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
@@ -140,7 +138,7 @@ header img {
   margin-top: 38px;
   display: grid;
   grid-template-columns: 327px;
-  grid-template-rows: auto;   
+  grid-template-rows: auto;
 }
 
 .work {
@@ -167,7 +165,7 @@ header img {
 }
 
 .work-description {
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -184,19 +182,19 @@ header img {
 }
 
 .work li {
-  font-family: InterBold;
+  font-family: InterBold,sans-serif;
   font-size: 12px;
   line-height: 16px;
   color: #3a4a42;
-  background: #Ebf0ee;
+  background: eEbf0ee;
   border-radius: 4px;
   padding: 8px 12px;
   margin: 0 4px;
-  overflow:visible;
+  overflow: visible;
 }
 
 .work-button {
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-size: 17px;
   line-height: 24px;
   justify-content: center;
@@ -204,7 +202,7 @@ header img {
   background: #36b37f;
   border-radius: 4px;
   margin: 24px 0;
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #fff;
@@ -221,25 +219,25 @@ header img {
 }
 
 .about-me {
-  font-family: InterBold;
+  font-family: InterBold,sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  margin: 0px 12px;
+  margin: 0 12px;
   margin-top: 35px;
   color: #172b4d;
 }
 
 .about-description {
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  margin:  24px 12px;
+  margin: 24px 12px;
 }
 
 .resume-button {
@@ -247,7 +245,7 @@ header img {
   border-radius: 4px;
   padding: 12px;
   margin-top: 12px;
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -287,7 +285,7 @@ header img {
 
 .frame h2 {
   margin-top: 10px;
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-style: normal;
   font-size: 24px;
   line-height: 32px;
@@ -298,15 +296,15 @@ header img {
 .frame ul {
   list-style: none;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 24px ;
+  margin-top: 24px;
   margin-bottom: 70px;
 }
 
 .frame li {
-  font-family: InterBold;
+  font-family: InterBold,sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 16px;
@@ -322,6 +320,7 @@ header img {
   background: #008552;
 }
 
-.resume-button:active,.work-button:active {
+.resume-button:active,
+.work-button:active {
   background: #008552;
 }
