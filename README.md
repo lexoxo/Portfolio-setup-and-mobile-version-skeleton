@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: mobile version
 
-> The aim is to setup a portfolio that i will be using for my all career to get hired or to contribute
+> This is my professional portfolio to show that i am the best developer you may find
 
 
 ## Built With
