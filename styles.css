@@ -52,14 +52,17 @@ header img {
   margin: 0 12px;
 }
 
-.headline {
+
+.headline 
+{
+
   margin-top: 48px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -108,12 +111,13 @@ header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 58px;
+
 }
 
 
 
 .recents-work{
-margin-top: 80px;
 font-family: InterBold;
 font-style: normal;
 font-size: 40px;
@@ -122,6 +126,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+text-align: center;
+color: #172B4D;
+padding: 30px;
 }
 
 .under-bar{
@@ -180,7 +187,7 @@ padding: 16px;
 }
 
 .work li{
-  font-family: InterRegular;
+  font-family: InterBold;
 font-size: 12px;
 line-height: 16px;
 color: #3A4A42;
@@ -209,6 +216,11 @@ color: #FFFFFF;
   display: flex;
 flex-direction: column;
 align-items: center;
+background-image: url("images/about-background.svg");
+background-size: 100vw;
+background-repeat: no-repeat;
+background-position: 0 20px;
+
 }
 
 .about-me{
@@ -217,7 +229,8 @@ align-items: center;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-margin: 24px 12px;
+margin: 0px 12px;
+margin-top: 35px;
 color: #172B4D;
 }
 .about-description{
@@ -262,17 +275,18 @@ justify-content: center;
   align-items: center;
   margin-bottom: 24px;
   /* min-height: 352px; */
+  max-height: 474px;
 }
 .frame img{
-  max-width: 80px;
-  height: 80px;
+  max-width: 135px;
+  height: 135px;
   display: block;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 .frame h2{
-  margin-top: 64px;
+  margin-top: 10px;
   font-family: InterRegular;
 font-style: normal;
 font-size: 24px;
@@ -284,15 +298,15 @@ color: #344563;
 .frame ul{
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 24px ;
-  margin-bottom: 24px;
+  margin-bottom: 70px;
 }
 
 .frame li{
-  font-family: InterRegular;
+  font-family: InterBold;
 font-style: normal;
 font-size: 12px;
 line-height: 16px;
