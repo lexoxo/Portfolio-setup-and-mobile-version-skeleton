@@ -52,8 +52,7 @@ header img {
   margin: 0 12px;
 }
 
-.headline
-{
+.headline {
   margin-top: 48px;
   width: 100%;
   display: flex;
@@ -113,7 +112,7 @@ header img {
 }
 
 .recents-work {
-  font-family: InterBold,sans-serif;
+  font-family: InterBold, sans-serif;
   font-style: normal;
   font-size: 40px;
   line-height: 52px;
@@ -165,7 +164,7 @@ header img {
 }
 
 .work-description {
-  font-family: InterRegular,sans-serif;
+  font-family: InterRegular, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -182,11 +181,11 @@ header img {
 }
 
 .work li {
-  font-family: InterBold,sans-serif;
+  font-family: InterBold, sans-serif;
   font-size: 12px;
   line-height: 16px;
   color: #3a4a42;
-  background: eEbf0ee;
+  background: #ebf0ee;
   border-radius: 4px;
   padding: 8px 12px;
   margin: 0 4px;
@@ -194,7 +193,7 @@ header img {
 }
 
 .work-button {
-  font-family: InterRegular,sans-serif;
+  font-family: InterRegular, sans-serif;
   font-size: 17px;
   line-height: 24px;
   justify-content: center;
@@ -202,7 +201,6 @@ header img {
   background: #36b37f;
   border-radius: 4px;
   margin: 24px 0;
-  font-family: InterRegular,sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #fff;
@@ -219,7 +217,7 @@ header img {
 }
 
 .about-me {
-  font-family: InterBold,sans-serif;
+  font-family: InterBold, sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -230,7 +228,7 @@ header img {
 }
 
 .about-description {
-  font-family: InterRegular,sans-serif;
+  font-family: InterRegular, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -245,7 +243,7 @@ header img {
   border-radius: 4px;
   padding: 12px;
   margin-top: 12px;
-  font-family: InterRegular,sans-serif;
+  font-family: InterRegular, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -285,7 +283,7 @@ header img {
 
 .frame h2 {
   margin-top: 10px;
-  font-family: InterRegular,sans-serif;
+  font-family: InterRegular, sans-serif;
   font-style: normal;
   font-size: 24px;
   line-height: 32px;
@@ -304,7 +302,7 @@ header img {
 }
 
 .frame li {
-  font-family: InterBold,sans-serif;
+  font-family: InterBold, sans-serif;
   font-style: normal;
   font-size: 12px;
   line-height: 16px;
