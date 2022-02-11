@@ -103,12 +103,13 @@ header img {
 }
 
 .more-img {
-  width: 40px;
-  height: 40px;
+  max-width: 40px;
+  max-height: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 
 .recents-work{
@@ -202,4 +203,47 @@ font-family: InterRegular;
 font-style: normal;
 font-weight: 500;
 color: #FFFFFF;
+}
+
+.about-myself{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.about-me{
+  font-family: InterBold;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+margin: 24px 12px;
+color: #172B4D;
+}
+.about-description{
+  font-family: InterRegular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
+  
+margin:  24px 12px;
+}
+.resume-button{
+  background: #36B37F;
+border-radius: 4px;
+  padding: 12px;
+  margin-top: 12px;
+  font-family: InterRegular;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.frames-langs{
+  margin-top: 51px;
 }
