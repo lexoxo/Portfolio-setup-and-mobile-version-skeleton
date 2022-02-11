@@ -318,3 +318,11 @@ padding: 12px;
 margin: 4px;
 
 }
+
+.onpress:active{
+  background: #008552;
+}
+
+.resume-button:active,.work-button:active{
+  background: #008552;
+}
