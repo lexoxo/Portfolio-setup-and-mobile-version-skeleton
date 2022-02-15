@@ -327,7 +327,7 @@ header img {
   background: #008552;
 }
 
-footer p {
+.footer p {
   padding: 24px;
   font-family: InterBold, sans-serif;
   font-size: 40px;
@@ -390,6 +390,6 @@ footer button {
   margin-bottom: 10px;
 }
 
-footer i {
+.footer i {
   color: #505f79;
 }
