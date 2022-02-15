@@ -329,10 +329,9 @@ header img {
 
 .form-section p {
   padding: 24px;
-  font-family: InterBold;
-  font-style: Bold;
+  font-family: InterBold,sans-serif;
   font-size: 40px;
-  text-align: Center;
+  text-align: center;
   color: #172b4d;
   margin-bottom: 58px;
 }
@@ -366,7 +365,7 @@ header img {
   -o-border-radius: 4px;
   padding: 15px 16px;
   font-size: 15px;
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-weight: normal;
   color: #6b778c;
   margin-bottom: 24px;
@@ -379,7 +378,7 @@ header img {
   border: 1px solid #60c095;
   box-sizing: border-box;
   border-radius: 4px;
-  font-family: InterRegular;
+  font-family: InterRegular,sans-serif;
   font-weight: normal;
   font-size: 15px;
   color: #091e42;
@@ -392,5 +391,5 @@ header img {
 }
 
 .form-section i {
-color: #505f79;
+  color: #505f79;
 }
