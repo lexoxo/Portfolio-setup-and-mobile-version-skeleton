@@ -336,6 +336,7 @@ font-style: Bold;
 font-size: 40px;
 text-align: Center;
 color: #172b4d;
+margin-bottom: 58px;
 }
 .form-section{
   display: flex;
@@ -377,4 +378,8 @@ padding: 12px;
 }
 .form-section button{
   margin-top: 26px;
+  margin-bottom: 10px;
+}
+.form-section i{
+color: #505F79;
 }
