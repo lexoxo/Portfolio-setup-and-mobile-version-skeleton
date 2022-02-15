@@ -403,11 +403,11 @@ footer button {
   margin-top: 19px;
 }
 
- .end-bar {
-   margin-top: 281px;
-   margin-bottom: 13px;
-   width: 134px;
-   background-color: black;
-   border: 2.5px solid black;
-   border-radius: 5px;
- }
+.end-bar {
+  margin-top: 281px;
+  margin-bottom: 13px;
+  width: 134px;
+  background-color: black;
+  border: 2.5px solid black;
+  border-radius: 5px;
+}
