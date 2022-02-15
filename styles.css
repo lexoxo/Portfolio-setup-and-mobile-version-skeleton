@@ -344,7 +344,12 @@ margin-bottom: 58px;
   justify-content: center;
   align-items: center;
 }
-
+.form-section form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .form-section input{
   width: 327px;
   height: 48px;
