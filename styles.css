@@ -18,6 +18,7 @@ html {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -216,7 +217,6 @@ header img {
   background-image: url("images/about-background.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
-  background-position: 0 20px;
 }
 
 .about-me {
@@ -325,4 +325,89 @@ header img {
 .resume-button:active,
 .work-button:active {
   background: #008552;
+}
+
+.footer p {
+  padding: 24px;
+  font-family: InterBold, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 58px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/contact-backgroung.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer input {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 15px 16px;
+  font-size: 15px;
+  font-family: InterRegular, sans-serif;
+  font-weight: normal;
+  color: #6b778c;
+  margin-bottom: 24px;
+}
+
+footer textarea {
+  width: 327px;
+  height: 114px;
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: InterRegular, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #091e42;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+footer button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer i {
+  color: #505f79;
+}
+
+.footer h3 {
+  font-family: InterRegular, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 19px;
+}
+
+.end-bar {
+  margin-top: 281px;
+  margin-bottom: 13px;
+  width: 134px;
+  background-color: black;
+  border: 2.5px solid black;
+  border-radius: 5px;
 }
