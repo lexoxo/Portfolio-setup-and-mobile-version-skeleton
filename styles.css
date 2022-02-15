@@ -383,13 +383,31 @@ footer textarea {
   font-size: 15px;
   color: #091e42;
   padding: 12px;
+  margin-bottom: 16px;
 }
 
 footer button {
-  margin-top: 26px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .footer i {
   color: #505f79;
 }
+
+.footer h3 {
+  font-family: InterRegular, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 19px;
+}
+
+ .end-bar {
+   margin-top: 281px;
+   margin-bottom: 13px;
+   width: 134px;
+   background-color: black;
+   border: 2.5px solid black;
+   border-radius: 5px;
+ }
