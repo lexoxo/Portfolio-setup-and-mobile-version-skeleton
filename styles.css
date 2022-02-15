@@ -327,7 +327,7 @@ header img {
   background: #008552;
 }
 
-.form-section p {
+footer p {
   padding: 24px;
   font-family: InterBold, sans-serif;
   font-size: 40px;
@@ -336,7 +336,7 @@ header img {
   margin-bottom: 58px;
 }
 
-.form-section {
+footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -346,14 +346,14 @@ header img {
   background-position: bottom right;
 }
 
-.form-section form {
+footer form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.form-section input {
+footer input {
   width: 327px;
   height: 48px;
   border: 1px solid #d0d9d4;
@@ -371,7 +371,7 @@ header img {
   margin-bottom: 24px;
 }
 
-.form-section textarea {
+footer textarea {
   width: 327px;
   height: 114px;
   background: #fff;
@@ -385,11 +385,11 @@ header img {
   padding: 12px;
 }
 
-.form-section button {
+footer button {
   margin-top: 26px;
   margin-bottom: 10px;
 }
 
-.form-section i {
+footer i {
   color: #505f79;
 }
