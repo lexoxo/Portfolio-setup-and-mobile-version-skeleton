@@ -217,7 +217,6 @@ header img {
   background-image: url("images/about-background.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
-  background-position: 0 20px;
 }
 
 .about-me {
@@ -327,30 +326,35 @@ header img {
 .work-button:active {
   background: #008552;
 }
-/* test comment Axel */
 
-.form-section p{
-padding: 24px;
-font-family: InterBold;
-font-style: Bold;
-font-size: 40px;
-text-align: Center;
-color: #172b4d;
-margin-bottom: 58px;
+.form-section p {
+  padding: 24px;
+  font-family: InterBold;
+  font-style: Bold;
+  font-size: 40px;
+  text-align: Center;
+  color: #172b4d;
+  margin-bottom: 58px;
 }
-.form-section{
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/contact-backgroung.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.form-section form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.form-section form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.form-section input{
+
+.form-section input {
   width: 327px;
   height: 48px;
   border: 1px solid #d0d9d4;
@@ -368,23 +372,25 @@ margin-bottom: 58px;
   margin-bottom: 24px;
 }
 
-.form-section textarea{
+.form-section textarea {
   width: 327px;
   height: 114px;
-  background: #FFFFFF;
-border: 1px solid #60C095;
-box-sizing: border-box;
-border-radius: 4px;
-font-family: InterRegular;
-font-weight: normal;
-font-size: 15px;
-color: #091E42;
-padding: 12px;
+  background: #fff;
+  border: 1px solid #60c095;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: InterRegular;
+  font-weight: normal;
+  font-size: 15px;
+  color: #091e42;
+  padding: 12px;
 }
-.form-section button{
+
+.form-section button {
   margin-top: 26px;
   margin-bottom: 10px;
 }
-.form-section i{
-color: #505F79;
+
+.form-section i {
+color: #505f79;
 }
