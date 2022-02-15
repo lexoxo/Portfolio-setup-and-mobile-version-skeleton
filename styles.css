@@ -18,6 +18,7 @@ html {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -336,11 +337,16 @@ font-size: 40px;
 text-align: Center;
 color: #172b4d;
 }
+.form-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .form-section input{
   width: 327px;
   height: 48px;
-  margin: 20px auto;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   background-color: #fff;
@@ -353,4 +359,22 @@ color: #172b4d;
   font-family: InterRegular;
   font-weight: normal;
   color: #6b778c;
+  margin-bottom: 24px;
+}
+
+.form-section textarea{
+  width: 327px;
+  height: 114px;
+  background: #FFFFFF;
+border: 1px solid #60C095;
+box-sizing: border-box;
+border-radius: 4px;
+font-family: InterRegular;
+font-weight: normal;
+font-size: 15px;
+color: #091E42;
+padding: 12px;
+}
+.form-section button{
+  margin-top: 26px;
 }
