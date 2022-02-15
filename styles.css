@@ -327,3 +327,12 @@ header img {
   background: #008552;
 }
 /* test comment Axel */
+
+.form-section p{
+padding: 24px;
+font-family: InterBold;
+font-style: Bold;
+font-size: 40px;
+text-align: Center;
+color: #172b4d;
+}
