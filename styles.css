@@ -430,7 +430,14 @@ align-items: center;
 text-align: center;
 color: #344563;
 }
+
 @media screen and (min-width: 800px) {
+  .works{
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+}
+@media screen and (min-width: 997px) {
   .mob-menu{
     display: none;
   }
@@ -452,5 +459,11 @@ body{
   }
   .recents-work{
     margin-top: 8%;
+  }
+
+  .works{
+    padding: 2vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
   }
 }
