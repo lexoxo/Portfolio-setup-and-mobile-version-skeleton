@@ -272,7 +272,7 @@ header img {
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
-  max-height: 474px;
+  /* max-height: 474px; */
 }
 
 .frame img {
@@ -436,6 +436,11 @@ color: #344563;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
   }
+  .frames-langs{
+    padding: 1vw;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+  }
 }
 @media screen and (min-width: 997px) {
   .mob-menu{
@@ -462,7 +467,25 @@ body{
   }
 
   .works{
-    padding: 2vw;
+    padding: 1vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+
+  .about-myself{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 112px;
+  }
+  .about-me{
+    margin-top: 80px;
+  }
+
+  .about-description{
+    margin: 0 112px;
+  }
+  .frames-langs{
+    padding: 1vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
   }
