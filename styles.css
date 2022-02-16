@@ -35,7 +35,7 @@ body {
   background-position: 0 60px;
 }
 
-header {
+.mob-menu {
   position: fixed;
   top: 0;
   display: flex;
@@ -58,14 +58,13 @@ header img {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
   min-height: 100vh;
   overflow: hidden;
 }
 
 .headline h1 {
-  font-family: interBold, sans-serif;
+  font-family: InterBold, sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: bold;
@@ -410,4 +409,48 @@ footer button {
   background-color: black;
   border: 2.5px solid black;
   border-radius: 5px;
+}
+
+.desk-menu{
+  margin-top: 16px;
+  /* padding: 10px; */
+  list-style: none;
+  display: none;
+}
+.desk-menu li{
+  margin: 16px;
+}
+.desk-menu a{
+  text-decoration: none;
+  font-family: InterBold;
+font-weight: 600;
+font-size: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #344563;
+}
+@media screen and (min-width: 800px) {
+  .mob-menu{
+    display: none;
+  }
+  .desk-menu{
+    display: flex;
+    justify-content: center;
+
+  }
+body{
+  background-image: url("images/desk-head-background.svg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+  .headline {
+    width: 60%;
+    margin-top: 0;
+    margin-left: 20%;
+  }
+  .recents-work{
+    margin-top: 8%;
+  }
 }
