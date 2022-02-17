@@ -444,6 +444,8 @@ color: #344563;
     grid-column-gap: 24px;
   }
 }
+
+
 @media screen and (min-width: 997px) {
   .mob-menu{
     display: none;
@@ -484,7 +486,8 @@ body{
   }
 
   .about-description{
-    margin: 0 112px;
+    margin: 0 250px;
+    justify-content: center;
   }
   .frames-langs{
     padding: 1vw;
@@ -501,7 +504,6 @@ body{
   .footer p{
     font-size: 30px;
     margin: 0;
-    ma
   }
 
   .form-div input{
@@ -528,5 +530,11 @@ body{
 
  footer .social{
    margin-top: 253px;
+ }
+ .about-myself{
+  background-image: url("images/about-desk-2-background.svg"), url("images/about-desk-background.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position:left 20%, right -5%;
+  background-size: auto,auto;
  }
 }
