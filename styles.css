@@ -150,6 +150,7 @@ header img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
+  width: 369px;
 }
 
 .work img {
@@ -216,6 +217,7 @@ header img {
   background-image: url("images/about-background.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
+  background-position:  top left;
 }
 
 .about-me {
@@ -272,7 +274,7 @@ header img {
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
-  /* max-height: 474px; */
+  width: 369px;
 }
 
 .frame img {
@@ -473,8 +475,8 @@ body{
   }
 
   .about-myself{
-    width: 80%;
-    margin-left: 10%;
+    width: 78.5%;
+    margin-left: 10.75%;
     margin-top: 112px;
   }
   .about-me{
@@ -489,4 +491,42 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
   }
+
+  .form-div{
+    width: 78.5%;
+    margin-left: 15%;
+    display: flex;
+    margin: 0 135px;
+  }
+  .footer p{
+    font-size: 30px;
+    margin: 0;
+    ma
+  }
+
+  .form-div input{
+    width: 684px;
+  }
+ .footer form{
+    display: flex;
+    flex-direction: column;
+    width: 684px;
+ }
+ .footer textarea{
+  width: 684px;
+ }
+ .footer form button{
+   align-self: flex-start;
+ }
+
+ .end-bar{
+   display: none;
+ }
+ footer h3{
+   display: none;
+ }
+
+ footer .social{
+   margin-top: 253px;
+ }
 }
