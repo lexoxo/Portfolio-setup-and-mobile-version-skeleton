@@ -477,8 +477,6 @@ body{
   }
 
   .about-myself{
-    width: 78.5%;
-    margin-left: 10.75%;
     margin-top: 112px;
   }
   .about-me{
@@ -500,14 +498,26 @@ body{
     margin-left: 15%;
     display: flex;
     margin: 0 135px;
+    margin-top: 164px;
   }
   .footer p{
     font-size: 30px;
-    margin: 0;
+    text-align: center;
+    margin-right: 27px;
+    padding: 0;
+    width: 463px;
+    margin-top: 50px;
+    line-height: 52px;
   }
 
   .form-div input{
     width: 684px;
+  }
+
+  footer{
+    background-image: url("images/contact-desk-back-1.svg"),url("images/contact-desk-back-2.svg"),url("images/contact-desk-back-3.svg");
+  background-repeat: no-repeat;
+  background-position: left,;
   }
  .footer form{
     display: flex;
@@ -534,7 +544,20 @@ body{
  .about-myself{
   background-image: url("images/about-desk-2-background.svg"), url("images/about-desk-background.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position:left 20%, right -5%;
+  background-position: left 20%, right -5%;
   background-size: auto,auto;
+ }
+
+ .footer{
+  background-image: url("images/contact-desk-back-1.svg"), url("images/contact-desk-back-2.svg"), url("images/contact-desk-back-3.svg");
+  background-repeat: no-repeat, no-repeat,no-repeat;
+  background-position:left 80%, 22% 75% , right 71%;
+  background-size: auto,auto;
+ }
+
+ .footer ul{
+   width: 100vw;
+   border-top: 1px solid #DFE1E6;
+   padding: 26px;
  }
 }
