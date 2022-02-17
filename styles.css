@@ -217,7 +217,7 @@ header img {
   background-image: url("images/about-background.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
-  background-position:  top left;
+  background-position: top left;
 }
 
 .about-me {
@@ -413,94 +413,95 @@ footer button {
   border-radius: 5px;
 }
 
-.desk-menu{
+.desk-menu {
   margin-top: 16px;
-  /* padding: 10px; */
   list-style: none;
   display: none;
 }
-.desk-menu li{
+
+.desk-menu li {
   margin: 16px;
 }
-.desk-menu a{
+
+.desk-menu a {
   text-decoration: none;
-  font-family: InterBold;
-font-weight: 600;
-font-size: 15px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #344563;
+  font-family: InterBold, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #344563;
 }
 
 @media screen and (min-width: 800px) {
-  .works{
+  .works {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
   }
-  .frames-langs{
+
+  .frames-langs {
     padding: 1vw;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
   }
 }
 
-
 @media screen and (min-width: 997px) {
-  .mob-menu{
+  .mob-menu {
     display: none;
   }
-  .desk-menu{
+
+  .desk-menu {
     display: flex;
     justify-content: center;
-
   }
-body{
-  background-image: url("images/desk-head-background.svg");
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-position: top;
-}
+
+  body {
+    background-image: url("images/desk-head-background.svg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
   .headline {
     width: 60%;
     margin-top: 0;
     margin-left: 20%;
   }
-  .recents-work{
+
+  .recents-work {
     margin-top: 8%;
   }
 
-  .works{
+  .works {
     padding: 1vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
   }
 
-  .about-myself{
-    margin-top: 112px;
-  }
-  .about-me{
+  .about-me {
     margin-top: 80px;
   }
 
-  .about-description{
+  .about-description {
     margin: 0 250px;
     justify-content: center;
   }
-  .frames-langs{
+
+  .frames-langs {
     padding: 1vw;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 24px;
   }
 
-  .form-div{
+  .form-div {
     width: 78.5%;
-    margin-left: 15%;
     display: flex;
-    margin: 0 135px;
-    margin-top: 164px;
+    margin-top: 135px;
   }
-  .footer p{
+
+  .footer p {
     font-size: 30px;
     text-align: center;
     margin-right: 27px;
@@ -510,54 +511,60 @@ body{
     line-height: 52px;
   }
 
-  .form-div input{
+  .form-div input {
     width: 684px;
   }
 
-  footer{
-    background-image: url("images/contact-desk-back-1.svg"),url("images/contact-desk-back-2.svg"),url("images/contact-desk-back-3.svg");
-  background-repeat: no-repeat;
-  background-position: left,;
+  footer {
+    background-image: url("images/contact-desk-back-1.svg"), url("images/contact-desk-back-2.svg"), url("images/contact-desk-back-3.svg");
+    background-repeat: no-repeat;
+    background-position: left;
   }
- .footer form{
+
+  .footer form {
     display: flex;
     flex-direction: column;
     width: 684px;
- }
- .footer textarea{
-  width: 684px;
- }
- .footer form button{
-   align-self: flex-start;
- }
+  }
 
- .end-bar{
-   display: none;
- }
- footer h3{
-   display: none;
- }
+  .footer textarea {
+    width: 684px;
+  }
 
- footer .social{
-   margin-top: 253px;
- }
- .about-myself{
-  background-image: url("images/about-desk-2-background.svg"), url("images/about-desk-background.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: left 20%, right -5%;
-  background-size: auto,auto;
- }
+  .footer form button {
+    align-self: flex-start;
+  }
 
- .footer{
-  background-image: url("images/contact-desk-back-1.svg"), url("images/contact-desk-back-2.svg"), url("images/contact-desk-back-3.svg");
-  background-repeat: no-repeat, no-repeat,no-repeat;
-  background-position:left 80%, 22% 75% , right 71%;
-  background-size: auto,auto;
- }
+  .end-bar {
+    display: none;
+  }
 
- .footer ul{
-   width: 100vw;
-   border-top: 1px solid #DFE1E6;
-   padding: 26px;
- }
+  footer h3 {
+    display: none;
+  }
+
+  footer .social {
+    margin-top: 253px;
+  }
+
+  .about-myself {
+    background-image: url("images/about-desk-2-background.svg"), url("images/about-desk-background.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 23%, right -5%;
+    background-size: auto, auto;
+    margin-top: 112px;
+  }
+
+  .footer {
+    background-image: url("images/contact-desk-back-1.svg"), url("images/contact-desk-back-2.svg"), url("images/contact-desk-back-3.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 80%, 22% 75%, right 71%;
+    background-size: auto, auto;
+  }
+
+  .footer ul {
+    width: 100vw;
+    border-top: 1px solid #dfe1e6;
+    padding: 26px;
+  }
 }
