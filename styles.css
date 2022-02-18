@@ -138,7 +138,7 @@ header img {
 .works {
   margin-top: 38px;
   display: grid;
-  grid-template-columns: 327px;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
 
@@ -474,10 +474,23 @@ footer button {
     margin-top: 8%;
   }
 
+  .work {
+    width: 100%;
+  }
+
+  .work-description {
+    width: auto;
+  }
+
+  .work img {
+    width: 100%;
+  }
+
   .works {
-    padding: 1vw;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 24px;
+    width: 78%;
+    align-items: center;
+    justify-items: center;
   }
 
   .about-me {
@@ -490,9 +503,24 @@ footer button {
   }
 
   .frames-langs {
-    padding: 1vw;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 24px;
+    width: 78%;
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .frame {
+    width: 100%;
+    max-height: 352px;
+  }
+
+  .frame ul {
+    height: 40px;
+  }
+
+  .recent-work {
+    width: 100%;
   }
 
   .form-div {
@@ -512,7 +540,7 @@ footer button {
   }
 
   .form-div input {
-    width: 684px;
+    width: 100%;
   }
 
   footer {
@@ -528,7 +556,7 @@ footer button {
   }
 
   .footer textarea {
-    width: 684px;
+    width: 100%;
   }
 
   .footer form button {
@@ -553,6 +581,7 @@ footer button {
     background-position: left 23%, right -5%;
     background-size: auto, auto;
     margin-top: 112px;
+    width: 100%;
   }
 
   .footer {
