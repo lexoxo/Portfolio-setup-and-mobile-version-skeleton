@@ -434,7 +434,7 @@ footer button {
   color: #344563;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   .works {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
@@ -486,7 +486,7 @@ footer button {
     width: 100%;
   }
 
-  .work-text{
+  .work-text {
     width: 100%;
   }
 
@@ -585,7 +585,6 @@ footer button {
     background-position: left 23%, right -5%;
     background-size: auto, auto;
     margin-top: 112px;
-    
   }
 
   .footer {
