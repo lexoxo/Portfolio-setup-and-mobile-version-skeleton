@@ -35,7 +35,7 @@ body {
   background-position: 0 60px;
 }
 
-header {
+.mob-menu {
   position: fixed;
   top: 0;
   display: flex;
@@ -58,14 +58,13 @@ header img {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
   min-height: 100vh;
   overflow: hidden;
 }
 
 .headline h1 {
-  font-family: interBold, sans-serif;
+  font-family: InterBold, sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: bold;
@@ -139,7 +138,7 @@ header img {
 .works {
   margin-top: 38px;
   display: grid;
-  grid-template-columns: 327px;
+  grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
 
@@ -151,6 +150,7 @@ header img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
+  width: 369px;
 }
 
 .work img {
@@ -217,6 +217,7 @@ header img {
   background-image: url("images/about-background.svg");
   background-size: 100vw;
   background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .about-me {
@@ -273,7 +274,7 @@ header img {
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
-  max-height: 474px;
+  width: 369px;
 }
 
 .frame img {
@@ -410,4 +411,192 @@ footer button {
   background-color: black;
   border: 2.5px solid black;
   border-radius: 5px;
+}
+
+.desk-menu {
+  margin-top: 16px;
+  list-style: none;
+  display: none;
+}
+
+.desk-menu li {
+  margin: 16px;
+}
+
+.desk-menu a {
+  text-decoration: none;
+  font-family: InterBold, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+}
+
+@media screen and (min-width: 850px) {
+  .works {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+
+  .frames-langs {
+    padding: 1vw;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  .mob-menu {
+    display: none;
+  }
+
+  .desk-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  body {
+    background-image: url("images/desk-head-background.svg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .headline {
+    width: 60%;
+    margin-top: 0;
+    margin-left: 20%;
+  }
+
+  .recents-work {
+    margin-top: 8%;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  .work-description {
+    width: auto;
+  }
+
+  .work img {
+    width: 100%;
+  }
+
+  .work-text {
+    width: 100%;
+  }
+
+  .works {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 78%;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .about-me {
+    margin-top: 80px;
+  }
+
+  .about-description {
+    margin: 0 250px;
+    justify-content: center;
+  }
+
+  .frames-langs {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 78%;
+    align-items: center;
+    justify-items: center;
+    padding: 0;
+  }
+
+  .frame {
+    width: 100%;
+    max-height: 352px;
+  }
+
+  .frame ul {
+    height: 40px;
+  }
+
+  .recent-work {
+    width: 100%;
+  }
+
+  .form-div {
+    width: 78.5%;
+    display: flex;
+    margin-top: 135px;
+  }
+
+  .footer p {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 27px;
+    padding: 0;
+    width: 463px;
+    margin-top: 50px;
+    line-height: 52px;
+  }
+
+  .form-div input {
+    width: 100%;
+  }
+
+  footer {
+    background-image: url("images/contact-desk-back-1.svg"), url("images/contact-desk-back-2.svg"), url("images/contact-desk-back-3.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .footer form {
+    display: flex;
+    flex-direction: column;
+    width: 684px;
+  }
+
+  .footer textarea {
+    width: 100%;
+  }
+
+  .footer form button {
+    align-self: flex-start;
+  }
+
+  .end-bar {
+    display: none;
+  }
+
+  footer h3 {
+    display: none;
+  }
+
+  footer .social {
+    margin-top: 253px;
+  }
+
+  .about-myself {
+    background-image: url("images/about-desk-2-background.svg"), url("images/about-desk-background.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 23%, right -5%;
+    background-size: auto, auto;
+    margin-top: 112px;
+  }
+
+  .footer {
+    background-image: url("images/contact-desk-back-1.svg"), url("images/contact-desk-back-2.svg"), url("images/contact-desk-back-3.svg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 80%, 22% 75%, right 71%;
+    background-size: auto, auto;
+  }
+
+  .footer ul {
+    width: 100vw;
+    border-top: 1px solid #dfe1e6;
+    padding: 26px;
+  }
 }
