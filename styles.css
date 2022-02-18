@@ -286,6 +286,29 @@ header img {
   margin-right: auto;
 }
 
+.frame img:hover {
+  animation-name: turn;
+  animation-duration: 3s;
+
+}
+
+@keyframes turn{
+  form{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+}
+
 .frame h2 {
   margin-top: 10px;
   font-family: InterRegular, sans-serif;
