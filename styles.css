@@ -486,6 +486,10 @@ footer button {
     width: 100%;
   }
 
+  .work-text{
+    width: 100%;
+  }
+
   .works {
     grid-template-columns: 1fr 1fr 1fr;
     width: 78%;
@@ -581,7 +585,7 @@ footer button {
     background-position: left 23%, right -5%;
     background-size: auto, auto;
     margin-top: 112px;
-    width: 100%;
+    
   }
 
   .footer {
