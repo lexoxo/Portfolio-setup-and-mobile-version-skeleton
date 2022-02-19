@@ -289,24 +289,24 @@ header img {
 .frame img:hover {
   animation-name: turn;
   animation-duration: 3s;
-
 }
 
-@keyframes turn{
-  form{
+@keyframes turn {
+  form {
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
-}
-to{
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-}
+  }
+
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
 }
 
 .frame h2 {
@@ -351,7 +351,8 @@ to{
   background: #008552;
 }
 
-.resume-button:hover,.work-button:hover{
+.resume-button:hover,
+.work-button:hover {
   animation-name: zoom;
   animation-duration: 0.5s;
   animation-direction: alternate;
@@ -359,14 +360,15 @@ to{
 }
 
 @keyframes zoom {
-  from{
+  from {
     padding: 12px;
   }
-  to{
+
+  to {
     padding: 13px;
   }
-  
 }
+
 .footer p {
   padding: 24px;
   font-family: InterBold, sans-serif;
@@ -595,7 +597,7 @@ footer button {
   .footer form {
     display: flex;
     flex-direction: column;
-    width: 100%
+    width: 100%;
   }
 
   .footer textarea {
