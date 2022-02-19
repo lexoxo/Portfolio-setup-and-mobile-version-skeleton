@@ -138,7 +138,7 @@ header img {
 .works {
   margin-top: 38px;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-template-rows: auto;
 }
 
@@ -150,12 +150,12 @@ header img {
   flex-direction: column;
   align-items: center;
   margin-bottom: 24px;
-  width: 369px;
+  max-width: 330px;
 }
 
 .work img {
-  height: 252px;
-  width: 310px;
+  border-radius: 8px;
+  width: 100%;
 }
 
 .work-text {
@@ -260,7 +260,7 @@ header img {
 .frames-langs {
   margin-top: 59px;
   display: grid;
-  grid-template-columns: 327px;
+  grid-template-columns: auto;
   grid-template-rows: auto;
 }
 
@@ -274,7 +274,7 @@ header img {
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
-  width: 369px;
+  max-width: 330px;
 }
 
 .frame img {
@@ -284,6 +284,29 @@ header img {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.frame img:hover {
+  animation-name: turn;
+  animation-duration: 3s;
+}
+
+@keyframes turn {
+  form {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
 }
 
 .frame h2 {
@@ -326,6 +349,24 @@ header img {
 .resume-button:active,
 .work-button:active {
   background: #008552;
+}
+
+.resume-button:hover,
+.work-button:hover {
+  animation-name: zoom;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
+@keyframes zoom {
+  from {
+    padding: 12px;
+  }
+
+  to {
+    padding: 13px;
+  }
 }
 
 .footer p {
@@ -492,7 +533,7 @@ footer button {
 
   .works {
     grid-template-columns: 1fr 1fr 1fr;
-    width: 78%;
+    width: 70%;
     align-items: center;
     justify-items: center;
   }
@@ -508,7 +549,7 @@ footer button {
 
   .frames-langs {
     grid-template-columns: 1fr 1fr 1fr;
-    width: 78%;
+    width: 70%;
     align-items: center;
     justify-items: center;
     padding: 0;
@@ -528,7 +569,7 @@ footer button {
   }
 
   .form-div {
-    width: 78.5%;
+    width: 70%;
     display: flex;
     margin-top: 135px;
   }
@@ -538,7 +579,7 @@ footer button {
     text-align: center;
     margin-right: 27px;
     padding: 0;
-    width: 463px;
+    width: 100%;
     margin-top: 50px;
     line-height: 52px;
   }
@@ -556,7 +597,7 @@ footer button {
   .footer form {
     display: flex;
     flex-direction: column;
-    width: 684px;
+    width: 100%;
   }
 
   .footer textarea {
