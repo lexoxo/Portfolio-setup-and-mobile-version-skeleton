@@ -487,6 +487,10 @@ footer button {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 24px;
   }
+
+  .under-bar {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 997px) {
@@ -546,6 +550,10 @@ footer button {
   .about-description {
     margin: 0 250px;
     justify-content: center;
+  }
+
+  .under-bar {
+    display: none;
   }
 
   .frames-langs {
