@@ -100,6 +100,7 @@ header img {
   padding: 10px;
   font-size: 25px !important;
   color: #172b4d;
+  cursor: pointer;
 }
 
 .more-img {
