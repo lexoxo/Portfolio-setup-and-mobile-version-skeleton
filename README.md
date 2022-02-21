@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[See how it looks](https://lexoxo.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+[Check it online](https://lexoxo.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 
 ## Getting Started
