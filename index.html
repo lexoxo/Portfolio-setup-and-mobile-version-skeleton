@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <title>Axel portfolio</title>
-  </head>
-  <body>
-    <div class="hamburger" id="nav">
-      <div class="hamburger-menu">
-          <nav class="nav-item1">
-              <a href="#" onclick="toogleNavBar()">Portfolio</a>
-          </nav>
-          <nav class="nav-item1">
-              <a href="#about" onclick="toogleNavBar()">About</a>
-          </nav>
-          <nav class="nav-item1">
-              <a href="#contact" onclick="toogleNavBar()">Contact</a>
-          </nav>
-      </div>
-      <div class="close"><img src="./images/closeTab.svg" alt="" onclick="toogleNavBar()"></div>
-  </div>
-    <header>
-      <div class="mob-menu">
-        <h1 class="header-text">Welcome</h1>
-        <img src="images/menu.png" alt="menu expand button" />
-      </div>
+    <script src="script.js"></script>
+</head>
 
-      <ul class="desk-menu">
-        <li><a href="#headline">Portfolio</a></li>
-        <li><a href="#about-myself">About</a></li>
-        <li><a href="#form">Contact</a></li>
-      </ul>
+<body>
+    <div class="hamburger" id="nav">
+        <div class="hamburger-menu">
+            <nav class="nav-item1">
+                <a href="#" onclick="toogleNavBar()">Portfolio</a>
+            </nav>
+            <nav class="nav-item1">
+                <a href="#about" onclick="toogleNavBar()">About</a>
+            </nav>
+            <nav class="nav-item1">
+                <a href="#contact" onclick="toogleNavBar()">Contact</a>
+            </nav>
+        </div>
+        <div class="close"><img src="./images/closeTab.svg" alt="" onclick="toogleNavBar()"></div>
+    </div>
+    <header>
+        <div class="mob-menu" id="nav">
+            <h1 class="header-text">Welcome</h1>
+            <img src="images/menu.png" alt="menu expand button" onclick="toogleNavBar()" />
+        </div>
+
+        <ul class="desk-menu">
+            <li><a href="#headline">Portfolio</a></li>
+            <li><a href="#about-myself">About</a></li>
+            <li><a href="#form">Contact</a></li>
+        </ul>
     </header>
     <section id="headline" class="headline">
-      <h1>
-        Hey there. I'm Axel<br /><span id="second-h1"
-          >I'm a software developer</span
+        <h1>
+            Hey there. I'm Axel<br /><span id="second-h1">I'm a software developer</span
         >
       </h1>
       <p>
