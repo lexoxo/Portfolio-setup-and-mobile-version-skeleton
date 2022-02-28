@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
     <title>Axel portfolio</title>
-  </head>
-  <body>
-    <header>
-      <div class="mob-menu">
-        <h1 class="header-text">Welcome</h1>
-        <img src="images/menu.png" alt="menu expand button" />
-      </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L3LBV79D45"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      <ul class="desk-menu">
-        <li><a href="#headline">Portfolio</a></li>
-        <li><a href="#about-myself">About</a></li>
-        <li><a href="#form">Contact</a></li>
-      </ul>
+  gtag('config', 'G-L3LBV79D45');
+</script>
+</head>
+
+<body>
+    <div class="hamburger" id="nav">
+        <div class="hamburger-menu">
+            <nav class="nav-item1">
+                <a href="#">Portfolio</a>
+            </nav>
+            <nav class="nav-item1">
+                <a href="#about-myself">About</a>
+            </nav>
+            <nav class="nav-item1">
+                <a href="#form">Contact</a>
+            </nav>
+        </div>
+        <div class="close"><img src="images/cancel.png" alt="close logo"></div>
+    </div>
+    <header>
+        <div class="mob-menu" id="nav">
+            <h1 class="header-text">Welcome</h1>
+            <img src="images/menu.png" alt="menu expand button" />
+        </div>
+
+        <ul class="desk-menu">
+            <li><a href="#headline">Portfolio</a></li>
+            <li><a href="#about-myself">About</a></li>
+            <li><a href="#form">Contact</a></li>
+        </ul>
     </header>
     <section id="headline" class="headline">
-      <h1>
-        Hey there. I'm Axel<br /><span id="second-h1"
-          >I'm a software developer</span
+        <h1>
+            Hey there. I'm Axel<br /><span id="second-h1">I'm a software developer</span
         >
       </h1>
       <p>
@@ -230,5 +251,6 @@ Typing something </textarea
       <h3>myemailhere@email.com</h3>
       <div class="end-bar"></div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
