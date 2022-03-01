@@ -166,7 +166,7 @@ header img {
     padding: 30px;
 }
 
-.popup-buttons-desk{
+.popup-buttons-desk {
     display: none;
 }
 
@@ -648,24 +648,25 @@ footer button {
     .recents-work {
         margin-top: 8%;
     }
-
     .popup {
         position: absolute;
         top: 0px;
         padding: 7% 10%;
-        
     }
-
-    .header-buttons{
+    .header-buttons {
         display: flex;
         justify-content: space-between;
     }
-
-    .popup-buttons-desk{
+    .popup-buttons-desk {
         display: flex;
     }
-   
-        .popup-buttons{
+    .closeTab {
+        background-color: #EBECF0;
+        border-radius: 8px;
+        top: 0px;
+        left: 48%;
+    }
+    .popup-buttons {
         display: none;
     }
     .work {
