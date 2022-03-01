@@ -166,6 +166,10 @@ header img {
     padding: 30px;
 }
 
+.popup-buttons-desk{
+    display: none;
+}
+
 .under-bar {
     width: 48px;
     height: 4px;
@@ -643,6 +647,26 @@ footer button {
     }
     .recents-work {
         margin-top: 8%;
+    }
+
+    .popup {
+        position: absolute;
+        top: 0px;
+        padding: 7% 10%;
+        
+    }
+
+    .header-buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .popup-buttons-desk{
+        display: flex;
+    }
+
+    .popup-buttons{
+        display: none;
     }
     .work {
         width: 100%;
