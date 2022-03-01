@@ -664,8 +664,8 @@ footer button {
     .popup-buttons-desk{
         display: flex;
     }
-
-    .popup-buttons{
+   
+        .popup-buttons{
         display: none;
     }
     .work {
