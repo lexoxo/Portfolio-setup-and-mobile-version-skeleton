@@ -11,14 +11,17 @@
 
     <title>Axel portfolio</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L3LBV79D45"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3LBV79D45"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-L3LBV79D45');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-L3LBV79D45');
+    </script>
 </head>
 
 <body>
@@ -73,17 +76,17 @@
       <div class="popup">
         <div class="popup-container">
           <div class="project-img">
-            <img src="images/popup-img.png">
-            <img src="images/popup-cancel.png">
+              <img src="images/popup-cancel.png" class="closeTab">
+            <img src="images/popup-img.png" class="popup-image">
           </div>
           <h2 class="popup-title">
             Keeping track of hundreds of components
           </h2>
           <div class="popup-technologies">
             <ul class="popup-ul">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>Javascript</li>
+              <li class="popup-li">Ruby on rails</li>
+              <li class="popup-li">css</li>
+              <li class="popup-li">Javascript</li>
 
             </ul>
           </div>
@@ -96,7 +99,7 @@
               <a href="#"><i class="fa fa-github"></i></a>
             </button>
             <button type="button" class="see-live">
-              <h6>Source</h6>
+              <h6>See Source</h6>
               <a href="#"><i class="fa fa-github"></i></a></button>
           </div>
         </div>
