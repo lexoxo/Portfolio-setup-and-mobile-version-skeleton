@@ -628,7 +628,7 @@ footer button {
     background-color: #008552;
 }
 
-#error {
+.error {
     display: block;
     text-align: left;
     align-self: start;
