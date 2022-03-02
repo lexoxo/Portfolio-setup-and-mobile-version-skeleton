@@ -136,7 +136,7 @@ email.addEventListener('input', () => {
 form.addEventListener('submit', (event) => {
   if (!reg.test(email.value.trim())) {
     email.classList.add('invalid');
-    submitError.innerHTML = 'The form is not sent Email should be in lowercase';
+    submitError.innerHTML = 'The form is not sent. Email should be in lowercase';
     event.preventDefault();
   }
 });
