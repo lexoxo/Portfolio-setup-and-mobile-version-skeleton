@@ -113,3 +113,30 @@ const clickClick = document.querySelectorAll('.work-button');
 clickClick.forEach((e) => {
   e.addEventListener('click', pop);
 });
+
+const form = document.getElementsByTagName('form')[0];
+
+const email = document.getElementById('email');
+const emailError = document.querySelector('#error');
+const submitError = document.querySelector('#submitError');
+const reg = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
+
+email.addEventListener('input', () => {
+  console.log('press');
+
+  if (reg.test(email.value)) {
+    emailError.innerHTML = '';
+    email.classList.remove('invalid');
+  } else {
+    email.classList.add('invalid');
+    emailError.innerHTML = 'Email should be in lowercase';
+  }
+});
+
+form.addEventListener('submit', (event) => {
+  if (!reg.test(email.value.trim())) {
+    email.classList.add('invalid');
+    submitError.innerHTML = 'The form is not sent. Email should be in lowercase';
+    event.preventDefault();
+  }
+});
