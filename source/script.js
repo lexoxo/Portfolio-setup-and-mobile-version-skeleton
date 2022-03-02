@@ -56,11 +56,11 @@ function pop(event) {
   ${currentWork.popupDescription.titre}
   </h2>
   <div class="popup-buttons-desk">
-    <button id="see-live" type="button" class="see-live">
+    <button type="button" class="see-live see-lives">
       <h6>See Live</h6>
       <i class="fa-solid fa-arrow-up-right-from-square"></i>
     </button>
-    <button id="see-source" type="button" class="see-live">
+    <button type="button" class="see-live see-source">
       <h6>See Source</h6>
       <i class="fa fa-github"></i></button>
   </div>
@@ -77,11 +77,11 @@ function pop(event) {
  ${currentWork.popupDescription.description}
 </p>
 <div class="popup-buttons">
-  <button id="see-live" type="button" class="see-live">
+  <button type="button" class="see-live see-lives">
     <h6>See Live</h6>
     <i class="fa fa-github"></i>
   </button>
-  <button id="see-source" type="button" class="see-live">
+  <button type="button" class="see-live see-source">
     <h6>See Source</h6>
     <i class="fa fa-github"></i></button>
 </div>
@@ -96,12 +96,16 @@ function pop(event) {
     window.location.href = 'index.html#recentWork';
   });
 
-  document.querySelector('#see-live').addEventListener('click', () => {
-    window.open(currentWork.popupDescription.demoLink);
+  document.querySelectorAll('.see-lives').forEach((e) => {
+    e.addEventListener('click', () => {
+      window.open(currentWork.popupDescription.demoLink);
+    });
   });
 
-  document.querySelector('#see-source').addEventListener('click', () => {
-    window.open(currentWork.popupDescription.source);
+  document.querySelectorAll('.see-source').forEach((e) => {
+    e.addEventListener('click', () => {
+      window.open(currentWork.popupDescription.source);
+    });
   });
 }
 
