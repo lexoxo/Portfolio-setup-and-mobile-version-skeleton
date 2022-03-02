@@ -11,18 +11,22 @@
 
     <title>Axel portfolio</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L3LBV79D45"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3LBV79D45"></script>
+    <script src="https://kit.fontawesome.com/f6777e9957.js" crossorigin="anonymous"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-L3LBV79D45');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-L3LBV79D45');
+    </script>
 </head>
 
 <body>
-    <div class="hamburger" id="nav">
+    <div class="hamburger">
         <div class="hamburger-menu">
             <nav class="nav-item1">
                 <a href="#">Portfolio</a>
@@ -37,7 +41,7 @@
         <div class="close"><img src="images/cancel.png" alt="close logo"></div>
     </div>
     <header>
-        <div class="mob-menu" id="nav">
+        <div class="mob-menu">
             <h1 class="header-text">Welcome</h1>
             <img src="images/menu.png" alt="menu expand button" />
         </div>
@@ -68,94 +72,12 @@
       <img class="more-img" src="images/more2.svg" alt="Description expansion tab" />
     </section>
 <!-- Now starts the secion with the diffrents projects -->
-    <section class="recents-work">
+    <section class="recents-work" id="recentWork">
       <h2 class="recent-work">My Recent Works</h2>
       <div class="under-bar"></div>
 
       <div class="works">
-        <div class="work">
-          <img src="images/default.png" alt="project overwiew image" />
-          <div class="work-text">
-            <h2 class="work-description">Multi-Post Stories Gain+Glory</h2>
-            <ul class="used-langages">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>Javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="work-button">See Project</div>
-          </div>
-        </div>
-
-        <div class="work">
-          <img src="images/default.png" alt="project overwiew image" />
-          <div class="work-text">
-            <h2 class="work-description">Multi-Post Stories Gain+Glory</h2>
-            <ul class="used-langages">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>Javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="work-button">See Project</div>
-          </div>
-        </div>
-
-        <div class="work">
-          <img src="images/default.png" alt="project overwiew image" />
-          <div class="work-text">
-            <h2 class="work-description">Multi-Post Stories Gain+Glory</h2>
-            <ul class="used-langages">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>Javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="work-button">See Project</div>
-          </div>
-        </div>
-
-        <div class="work">
-          <img src="images/default.png" alt="project overwiew image" />
-          <div class="work-text">
-            <h2 class="work-description">Multi-Post Stories Gain+Glory</h2>
-            <ul class="used-langages">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>Javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="work-button">See Project</div>
-          </div>
-        </div>
-
-        <div class="work">
-          <img src="images/default.png" alt="project overwiew image" />
-          <div class="work-text">
-            <h2 class="work-description">Multi-Post Stories Gain+Glory</h2>
-            <ul class="used-langages">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>Javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="work-button">See Project</div>
-          </div>
-        </div>
-
-        <div class="work">
-          <img src="images/default.png" alt="project overwiew image" />
-          <div class="work-text">
-            <h2 class="work-description">Multi-Post Stories Gain+Glory</h2>
-            <ul class="used-langages">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>Javascript</li>
-              <li>html</li>
-            </ul>
-            <div class="work-button">See Project</div>
-          </div>
-        </div>
+        
       </div>
     </section>
 
@@ -251,6 +173,6 @@ Typing something </textarea
       <h3>myemailhere@email.com</h3>
       <div class="end-bar"></div>
     </footer>
-    <script src="script.js"></script>
+    <script type="module" src="source/script.js"></script>
   </body>
 </html>
