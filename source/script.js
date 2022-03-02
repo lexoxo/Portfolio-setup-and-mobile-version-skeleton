@@ -1,7 +1,7 @@
 import { works } from './data.js';
 
 function toogleNavBar() {
-  const nav = document.getElementById('nav');
+  const nav = document.querySelector('.hamburger');
   if (nav.style.display !== 'none') nav.style.display = 'none';
   else nav.style.display = 'flex';
 }
