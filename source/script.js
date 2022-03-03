@@ -27,7 +27,7 @@ for (let i = 0; i < works.length; i += 1) {
               <div class="work-button" id = "${works[i].id}">See Project</div>
             </div>
   `;
-  document.querySelector('.works').appendChild(work);
+  document.querySelector('.works').appendChilds(work);
 }
 
 const previousBody = document.body;
@@ -40,7 +40,7 @@ function pop(event) {
   });
   const popup = document.createElement('div');
   let liTech = '';
-  for (let j = 0; j < currentWork.popupDescription.technolgies.length; j += 1) liTech += `<li class = 'popup-li'>${currentWork.popupDescription.technolgies[j]}</li>`;
+  for (let j = 0; j < currentWork.popupDescriptions.technolgies.length; j += 1) liTech += `<li class = 'popup-li'>${currentWork.popupDescription.technolgies[j]}</li>`;
 
   popup.classList.add('popup');
   popup.setAttribute('id', 'popup');
